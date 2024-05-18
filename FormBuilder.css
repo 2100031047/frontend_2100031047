@@ -1,0 +1,107 @@
+/* FormBuilder.css */
+
+.form-builder-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-builder-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-name-container {
+    margin-bottom: 20px;
+  }
+  
+  .form-name-container label {
+    font-weight: bold;
+  }
+  
+  .form-field {
+    margin-bottom: 10px;
+  }
+  
+  .form-field label input[type='text'] {
+    margin-right: 10px;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-field input[type='text'] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-field input[type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .form-field input[type='radio']:checked {
+    background-color: #007bff;
+  }
+  
+  .form-field input[type='checkbox'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #007bff;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .form-field input[type='checkbox']:checked {
+    background-color: #007bff;
+  }
+  
+  .add-field-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-field-buttons button {
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .add-field-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .remove-field-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .remove-field-button:hover {
+    background-color: #bb2d3b;
+  }
+  
